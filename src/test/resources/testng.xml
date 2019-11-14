@@ -10,11 +10,11 @@
             <class name="tests.ApplitoolsTests.DynamicContentTests"/>
             <class name="tests.ApplitoolsTests.LoginPageTests"/>
             <class name="tests.ApplitoolsTests.TableSortTests"/>
-            <!--<class name="tests.TraditionalTests.TableSortTests"/>-->
-            <!--<class name="tests.TraditionalTests.CanvasChartsTest"/>-->
-            <!--<class name="tests.TraditionalTests.DataDrivenTests"/>-->
-            <!--<class name="tests.TraditionalTests.DynamicContentTests"/>-->
-            <!--<class name="tests.TraditionalTests.LoginPageTests"/>-->
+            <class name="tests.TraditionalTests.TableSortTests"/>
+            <class name="tests.TraditionalTests.CanvasChartsTest"/>
+            <class name="tests.TraditionalTests.DataDrivenTests"/>
+            <class name="tests.TraditionalTests.DynamicContentTests"/>
+            <class name="tests.TraditionalTests.LoginPageTests"/>
         </classes>
     </test>
 </suite>
