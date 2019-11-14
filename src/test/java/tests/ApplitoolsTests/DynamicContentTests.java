@@ -29,7 +29,7 @@ public class DynamicContentTests extends DriveInitialization {
         driver = initialization();
         eyes.setForceFullPageScreenshot(true);
         openEyes("Hackathon", method.getName());
-        driver.get(prop.getProperty("addURLVersion2"));
+        driver.get(prop.getProperty("addURLVersion1"));
         softAssert = new SoftAssert();
     }
 

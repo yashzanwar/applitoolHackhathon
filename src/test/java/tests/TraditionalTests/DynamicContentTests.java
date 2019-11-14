@@ -16,7 +16,7 @@ public class DynamicContentTests extends DriveInitialization {
     @BeforeMethod
     public void createDriver() {
         driver = initialization();
-        driver.get(prop.getProperty("addURLVersion2"));
+        driver.get(prop.getProperty("addURLVersion1"));
         softAssert = new SoftAssert();
     }
 

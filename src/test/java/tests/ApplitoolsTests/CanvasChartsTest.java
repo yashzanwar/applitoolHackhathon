@@ -31,7 +31,7 @@ public class CanvasChartsTest extends DriveInitialization {
         driver = initialization();
         eyes.setForceFullPageScreenshot(true);
         openEyes("Hackathon", method.getName());
-        driver.get(prop.getProperty("urlVersion2"));
+        driver.get(prop.getProperty("urlVersion1"));
         softAssert = new SoftAssert();
     }
 

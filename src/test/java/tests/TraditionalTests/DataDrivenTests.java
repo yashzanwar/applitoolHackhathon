@@ -15,7 +15,7 @@ public class DataDrivenTests extends DriveInitialization {
     @BeforeMethod
     public void createDriver() {
         driver = initialization();
-        driver.get(prop.getProperty("urlVersion2"));
+        driver.get(prop.getProperty("urlVersion1"));
         softAssert = new SoftAssert();
     }
 
