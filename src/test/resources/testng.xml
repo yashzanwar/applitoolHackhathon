@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Applitool Hackthon Test Automation Test Suite">
+
+
+    <test name="Applitool Hackthon Test Cases">
+        <classes>
+            <class name="tests.ApplitoolsTests.CanvasChartsTest"/>
+            <class name="tests.ApplitoolsTests.DataDrivenTests"/>
+            <class name="tests.ApplitoolsTests.DynamicContentTests"/>
+            <class name="tests.ApplitoolsTests.LoginPageTests"/>
+            <class name="tests.ApplitoolsTests.TableSortTests"/>
+            <!--<class name="tests.TraditionalTests.TableSortTests"/>-->
+            <!--<class name="tests.TraditionalTests.CanvasChartsTest"/>-->
+            <!--<class name="tests.TraditionalTests.DataDrivenTests"/>-->
+            <!--<class name="tests.TraditionalTests.DynamicContentTests"/>-->
+            <!--<class name="tests.TraditionalTests.LoginPageTests"/>-->
+        </classes>
+    </test>
+</suite>
